@@ -690,6 +690,117 @@ padding-bottom: 50px;
   padding: 0 20% 0 20%;
 
 }
+
+.final_secition{
+
+  height: auto;
+  width: 100%;
+/* background-color: cyan;*/
+}
+
+.reservation{
+
+  color: #000;
+  font-family:'Inter', sans-serif ;
+  font-size: 4rem;
+  width: 100%;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 14rem;
+  letter-spacing: 2px;
+
+}
+
+.reservation_title{
+  font-family:'Inder', sans-serif ;
+  color: #5a5a5a;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 20% 0 20%;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+
+
+}
+
+.book_table_button{
+
+  width: 100%;
+  text-align:center ;
+  padding-top: 3rem;
+}
+
+.book_table_button > a > button{
+
+  height: 55px;
+  width: 400px;
+/*  background-color: 0;*/
+background: transparent;
+  color: #000;
+  border: 2.5px solid #000;
+  font-family:'Inter', sans-serif ;
+  font-size: 19px;
+  font-weight: 590;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.book_table_button > a > button:hover{
+
+  background-color: #000;
+  color: #fff;
+/*  border: 2.5px solid #000;*/
+
+}
+
+.telephone{
+
+  color: #000;
+  font-family:'Inter', sans-serif ;
+  font-size: 1rem;
+  width: 100%;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 10rem;
+  letter-spacing: 2px;
+}
+
+.numbber_telephone{
+
+  color: #000;
+  font-family:'Inter', sans-serif ;
+  font-size: 4rem;
+  width: 100%;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 1.3rem;
+  letter-spacing: 2px;
+
+
+}
+
+footer{
+
+  height: auto;
+  width: 100%;
+  background-color:#181818 ;
+  margin-top: 120px;
+}
+
+.foooter{
+
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.footer_item{
+
+  height: 300px;
+  width: 25%;
+  background-color: red;
+  border:1px solid black;
+}
+
 /*------------------------risponsiv for mobile-----------------------*/
 @media only screen and (max-width: 390px){
 
@@ -987,6 +1098,39 @@ padding-bottom: 50px;
   top: 20%;
 }
 
+.reservation{
+
+  font-size: 10vw;
+  padding-top:4rem ;
+
+}
+
+.reservation_title{
+
+  padding: 3rem 7% 0 7%;
+  font-size: 4vw;
+  line-height: 170%;
+}
+
+.book_table_button > a > button{
+
+
+  height: 40px;
+  width: 270px;
+  font-size: 3.6vw;
+}
+
+.telephone{
+
+  font-size: 3.2vw;
+  padding-top: 5rem;
+}
+
+.numbber_telephone{
+
+  font-size: 8.6vw;
+}
+
 }
 
 
@@ -1282,6 +1426,39 @@ padding-bottom: 50px;
 
   font-size: 30px;
   top: 20%;
+}
+
+.reservation{
+
+  font-size: 10vw;
+  padding-top:4rem ;
+
+}
+
+.reservation_title{
+
+  padding: 3rem 7% 0 7%;
+  font-size: 4vw;
+  line-height: 170%;
+}
+
+.book_table_button > a > button{
+
+
+  height: 40px;
+  width: 270px;
+  font-size: 3.6vw;
+}
+
+.telephone{
+
+  font-size: 3.2vw;
+  padding-top: 5rem;
+}
+
+.numbber_telephone{
+
+  font-size: 8.6vw;
 }
 }
 
