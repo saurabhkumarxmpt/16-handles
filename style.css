@@ -121,6 +121,7 @@
     position: absolute;
     display: block;
     width: 100%;
+/*    height: 400px;*/
     background-color: #333;
     height: 0px;
     transition: all 0.3s ease-in;
@@ -909,7 +910,196 @@ background: transparent;
   }
 }
 
-/*------------------------risponsiv for mobile-----------------------*/
+/*-------------------------------------------------------------
+-------------------------About page----------------------------
+-------------------------------------------------------------
+--------------------------------------------------------------*/
+
+#about_cover-image{
+
+            width: 100%;
+            height: 470px;
+            background-image: url('photos/about png/about_png.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+}
+
+
+.about_main_text_2{
+
+  padding-top: 0px;
+  font-family: 'Inder' ,sans-serif ;
+}
+
+.our_story{
+
+
+  position: relative;
+  height: 250px;
+  width: 100%;
+/*  background-color: red;*/
+}
+
+.div1{
+
+  position: absolute;
+  height: 250px;
+  width: 35%;
+/*  background-color: green;*/
+}
+
+.div2{
+
+   position: absolute;
+  height: 250px;
+  width: 65%;
+  margin: 0 35%;
+/*  background-color: blue;*/
+}
+
+.our_story_div1{
+
+
+  font-family: 'Inter' , sans-serif;
+  font-weight: bolder;
+  font-size: 2.6em;
+  padding: 5% 10%;
+}
+
+.our_story_div2{
+
+  font-family: 'Inter' , sans-serif;
+  font-size: 1.1em;
+  padding: 5% 2% ;
+  padding-right: 13%;
+  filter: opacity(66%);
+}
+
+
+.about_main_image{
+
+  height: 28rem;
+  width: 100%;
+/*  background-color: red;*/
+  position: relative;
+
+}
+
+.about_main_image_div1{
+
+
+  position: absolute;
+  height: 9rem;
+  width: 37%;
+/*  background-color: green;*/
+}
+
+.about_main_image_div2{
+
+  position: absolute;
+  height: 9rem;
+  width: 37%;
+  top: 9rem;
+/*  background-color: blue;*/
+
+}
+
+.about_main_image_div3{
+
+  position: absolute;
+  height: 9rem;
+  width: 37%;
+  top: 18rem;
+/*  background-color: pink;*/
+
+}
+
+
+.bi{
+
+
+ color: #fff;
+ background-color: black;
+ padding: 16px;
+ position: absolute;
+ font-size:1.2rem ;
+ border-radius: 360px;
+ left: 20%;
+ top: 15%;
+}
+
+.about_main_image_div1 h3{
+
+  font-family: 'Inter' , sans-serif;
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  font-size: 1.2rem;
+}
+.about_main_image_div1 p{
+
+  font-family: 'Inter' , sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 0.95rem;
+  padding-right: 15%;
+}
+
+.about_main_image_div2 h3{
+
+  font-family: 'Inter' , sans-serif;
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  font-size: 1.2rem;
+}
+.about_main_image_div2 p{
+
+  font-family: 'Inter' , sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 0.95rem;
+  padding-right: 15%;
+}
+
+.about_main_image_div3 h3{
+
+  font-family: 'Inter' , sans-serif;
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  font-size: 1.2rem;
+}
+.about_main_image_div3 p{
+
+  font-family: 'Inter' , sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 0.95rem;
+  padding-right: 15%;
+}
+
+.main-about-image{
+
+  height: 100%;
+  position: absolute;
+  width: 63%;
+  left: 37%;
+/*  background-color: cyan;*/
+}
+
+.main-about-image img{
+
+  height: 120%;
+  width: 90% ;
+}
+
+/*------------------------risponsiv for mob.
+ile-----------------------*/
 @media only screen and (max-width: 390px){
 
   .main_text_1{
@@ -1239,8 +1429,127 @@ background: transparent;
   font-size: 8.6vw;
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------About mobile --------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.our_story{
+
+  height:310px;
 }
 
+.div1{
+
+  width: 100%;
+  height: 60px;
+  font-size: 7vw;
+  padding-left: 7%;
+}
+
+.div2{
+
+  width: 100%;
+  margin-left:0 ;
+  margin-top: 60px;
+   font-size: 4vw;
+  padding-left: 7%;
+}
+
+#about_cover-image{
+
+  height: 390px;
+}
+
+.about_main_image{
+
+  height: 25rem;
+}
+
+.about_main_image_div1{
+
+
+  height: 6rem;
+  width: 100%;
+}
+.about_main_image_div2{
+
+
+  height: 6rem;
+  width: 100%;
+  top: 6rem;
+}
+.about_main_image_div3{
+
+
+  height: 6rem;
+  width: 100%;
+  top: 12rem;
+}
+
+.bi{
+
+  left: 5%;
+}
+
+.about_main_image_div1 h3{
+
+  left: 25%;
+  font-size: 4.8vw;
+}
+
+.about_main_image_div1 p{
+
+  left: 25%;
+  font-size: 3.9vw;
+  top: 44%;
+}
+.about_main_image_div2 h3{
+
+  left: 25%;
+  font-size: 4.8vw;
+}
+
+.about_main_image_div2 p{
+
+  left: 25%;
+  font-size: 3.9vw;
+  top: 44%;
+}
+.about_main_image_div3 h3{
+
+  left: 25%;
+  font-size: 4.8vw;
+}
+
+.about_main_image_div3 p{
+
+  left: 25%;
+  font-size: 3.9vw;
+  top: 44%;
+}
+
+.main-about-image{
+
+  width: 100%;
+  left: 0;
+  top: 18rem ;
+  height: 50%;
+/*  background-color: cyan;*/
+/* filter: opacity(50%);*/
+  text-align: center;
+  height: ;
+}
+
+.main-about-image img{
+
+  width: 85%;
+  height: auto;
+
+
+
+}
+}
 
 /*------------------------risponsiv for mobile end-----------------------*/
 
@@ -1568,6 +1877,119 @@ background: transparent;
 
   font-size: 8.6vw;
 }
+
+.our_story{
+
+  height:360px;
+}
+
+.div1{
+
+  width: 100%;
+  height: auto;
+  font-size: 7vw;
+  padding-left: 7%;
+}
+
+.div2{
+
+  width: 100%;
+  margin-left:0 ;
+  margin-top: 100px ;
+/*  position: relative;*/
+   font-size: 4vw;
+  padding-left: 7%;
+}
+
+.about_main_image{
+
+  height: 25rem;
+}
+
+.about_main_image_div1{
+
+
+  height: 6rem;
+  width: 100%;
+}
+.about_main_image_div2{
+
+
+  height: 6rem;
+  width: 100%;
+  top: 6rem;
+}
+.about_main_image_div3{
+
+
+  height: 6rem;
+  width: 100%;
+  top: 12rem;
+}
+
+.bi{
+
+  left: 5%;
+}
+
+.about_main_image_div1 h3{
+
+  left: 25%;
+  font-size: 4.8vw;
+}
+
+.about_main_image_div1 p{
+
+  left: 25%;
+  font-size: 3.9vw;
+  top: 44%;
+}
+.about_main_image_div2 h3{
+
+  left: 25%;
+  font-size: 4.8vw;
+}
+
+.about_main_image_div2 p{
+
+  left: 25%;
+  font-size: 3.9vw;
+  top: 44%;
+}
+.about_main_image_div3 h3{
+
+  left: 25%;
+  font-size: 4.8vw;
+}
+
+.about_main_image_div3 p{
+
+  left: 25%;
+  font-size: 3.9vw;
+  top: 44%;
+}
+
+.main-about-image{
+
+  width: 100%;
+  left: 0;
+  top: 18rem ;
+  height: 50%;
+  background-color: cyan;
+ filter: opacity(50%);
+  text-align: center;
+  height: ;
+}
+
+.main-about-image img{
+
+  width: 85%;
+  height: auto;
+
+
+
+}
+
 }
 
 /*------------------------risponsiv for tablet end-----------------------*/
