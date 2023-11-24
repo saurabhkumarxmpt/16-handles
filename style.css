@@ -961,7 +961,7 @@ background: transparent;
 .our_story_div1{
 
 
-  font-family: 'Inter' , sans-serif;
+    font-family: 'Noto Sans', sans-serif;
   font-weight: bolder;
   font-size: 2.6em;
   padding: 5% 10%;
@@ -1098,8 +1098,182 @@ background: transparent;
   width: 90% ;
 }
 
-/*------------------------risponsiv for mob.
-ile-----------------------*/
+.menu-system {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:#181818;
+  width: 100%;
+  height: auto;
+}
+
+ .menu-system-item{
+/* background-color: darkblue;*/
+  width: 33%;
+  margin: 5px;
+  height: 600px;
+}
+
+#menu-system-item1-element{
+
+   font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2.7em;
+  margin: 40% 13%;
+  color: #fff;
+}
+
+#menu-system-item1-element1{
+
+  font-family: 'Inter' , sans-serif;
+  margin:-36% 13% ;
+  font-size: 17px;
+  color: #fff;
+}
+.menu-system-item1 a button{
+
+  margin:46% 13% ;
+  font-family: 'Noto Sans', sans-serif;
+  height: 45px;
+  width: 135px;
+  color: #fff;
+  background-color: transparent ;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: 0.4s all;
+
+}
+
+.menu-system-item1 a button:hover{
+
+  background-color: #fff;
+  color: #000;
+
+}
+
+.menu-system-item2{
+
+  text-align: center;
+}
+
+.menu-system-item2 img {
+
+  height: auto;
+  width: 95%;
+  margin-top: 15%;
+
+}
+
+.menu-system-item2 h3{
+
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+} 
+
+.menu-system-item2 p{
+
+  font-family: 'Inter' ,sans-serif ;
+  color: #fff;
+  font-size: 0.94rem;
+  margin-top: 10px;
+  line-height: 200%;
+
+
+}
+
+#menu-system-item-image2{
+
+  width:74%;
+  height: auto;
+  margin-top: 27%;
+
+}
+
+#dal-makhni{
+
+  margin-top: 13%;
+}
+
+.meet-about{
+
+  display: flex;
+  flex-wrap: nowrap;
+/*  background-color: #f1f1f1;*/
+}
+
+.meet-about1{
+
+  width: 60%;
+  margin: 3px;
+  height: 15rem;
+}
+
+.meet-about1 p{
+
+    font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2.1rem;
+  margin: 12% 10%;
+  color: #000;
+}
+.meet-about-second p{
+
+  font-size: 1rem;
+  margin: 12% 5%;
+  font-family: 'Inter' , sans-serif;
+  filter: opacity(75%);
+  font-weight: normal;
+
+}
+
+.about-chef{
+
+  display: flex;
+  flex-wrap: nowrap;
+/*  background-color: #;*/
+  justify-content: center;
+}
+
+.about-chef div{
+
+/*    background-color: #f1f1f1;*/
+  width: 410px;
+  text-align: center;
+  height:47rem;
+  font-size: 30px;
+/*  border: 1px solid #000;*/
+}
+
+.about-chef1 img{
+
+  height: auto;
+  width:100%;
+}
+
+.about-chef1 h3{
+
+  font-family:'Inder' , sans-serif ;
+  font-size: 1.8rem;
+  margin-top: 5%;
+}
+
+
+
+.fa-brands{
+
+  font-size: 1.1rem;
+  margin-left: 5px;
+  color: #808080;
+  transition: 0.3s all;
+}
+
+.fa-brands:hover{
+
+  color: #1274E9;
+}
+
+/*------------------------responsive for mobile-----------------------*/
 @media only screen and (max-width: 390px){
 
   .main_text_1{
@@ -1429,6 +1603,8 @@ ile-----------------------*/
   font-size: 8.6vw;
 }
 
+
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------About mobile --------------------------------------------------------------------------------------------------------*/
 
 
@@ -1549,6 +1725,119 @@ ile-----------------------*/
 
 
 }
+
+.menu-system{
+
+  flex-wrap: wrap;
+
+}
+
+.menu-system-item{
+
+  width: 100%;
+  height: auto;
+}
+
+.menu-system-item1{
+
+  text-align: center;
+
+}
+
+#menu-system-item1-element{
+
+  font-size: 1.5rem ;
+  margin-top: 37%;
+
+}
+
+#menu-system-item1-element1{
+
+  font-size: 0.8rem;
+
+}
+
+.menu-system-item2 img{
+
+  margin-top: 0;
+  height: auto;
+  width: 80%;
+}
+
+.menu-system-item2 h3{
+
+font-size: 1.2rem;
+
+}
+
+
+.menu-system-item2 p{
+
+  font-size: 0.8rem;
+}
+
+#menu-system-item-image2{
+
+  margin-top: 5%;
+}
+
+.menu-system-item3{
+
+  height: 320px;
+}
+
+.meet-about{
+
+  height: auto;
+  flex-wrap: wrap;
+
+}
+.meet-about1{
+
+  width: 100%;
+  height: auto;
+}
+
+.meet-about1 p{
+
+  font-size: 1.2rem;
+  margin-left: 7%;
+/*  margin-top: ;*/
+
+}
+
+.meet-about-second p{
+
+  margin-top: 0;
+  font-size: 0.93rem;
+  padding-right: 5%;
+/*  text-align: justify;*/
+margin-left: 7%;
+}
+
+.about-chef{
+
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.about-chef div{
+
+  height: auto;
+}
+
+.about-chef1 img {
+
+width: 80%;
+margin-top: 5%;
+
+}
+
+.about-chef1 h3{
+
+  font-size: 1.5rem;
+}
+
 }
 
 /*------------------------risponsiv for mobile end-----------------------*/
@@ -1975,8 +2264,6 @@ ile-----------------------*/
   left: 0;
   top: 18rem ;
   height: 50%;
-  background-color: cyan;
- filter: opacity(50%);
   text-align: center;
   height: ;
 }
@@ -1990,6 +2277,113 @@ ile-----------------------*/
 
 }
 
+.menu-system{
+
+  flex-wrap: wrap;
+
+}
+
+.menu-system-item{
+
+  width: 100%;
+  height: auto;
+}
+
+.menu-system-item1{
+
+  text-align: center;
+
+}
+
+
+#menu-system-item1-element{
+
+  font-size: 1.5rem ;
+  margin-top: 37%;
+
+}
+
+#menu-system-item1-element1{
+
+  font-size: 0.8rem;
+
+}
+
+.menu-system-item2 img{
+
+  margin-top: 0;
+  height: auto;
+  width: 80%;
+}
+
+.menu-system-item2 h3{
+
+font-size: 1.2rem;
+
+}
+
+
+.menu-system-item2 p{
+
+  font-size: 0.8rem;
+}
+
+#menu-system-item-image2{
+
+  margin-top: 5%;
+}
+
+.meet-about{
+
+  height: auto;
+  flex-wrap: wrap;
+
+}
+.meet-about1{
+
+  width: 100%;
+  height: auto;
+}
+
+.meet-about1 p{
+
+  font-size: 1.2rem;
+  margin-left: 7%;
+/*  margin-top: ;*/
+
+}
+
+.meet-about-second p{
+
+  margin-top: 0;
+  font-size: 0.93rem;
+  padding-right: 5%;
+/*  text-align: justify;*/
+margin-left: 7%;
+}
+
+.about-chef{
+
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.about-chef div{
+
+  height: auto;
+}
+
+.about-chef1 img {
+
+width: 80%;
+margin-top: 5%;
+
+}
+
+.about-chef1 h3{
+
+  font-size: 1.5rem;
+}
 }
 
 /*------------------------risponsiv for tablet end-----------------------*/
