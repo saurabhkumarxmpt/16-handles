@@ -915,7 +915,7 @@ background: transparent;
 -------------------------------------------------------------
 --------------------------------------------------------------*/
 
-#about_cover-image{
+.about_cover-image{
 
             width: 100%;
             height: 470px;
@@ -1271,6 +1271,184 @@ background: transparent;
 .fa-brands:hover{
 
   color: #1274E9;
+
+}
+
+/*-----------------------********* menu page ********-------------------*/
+
+
+.menu-cover-image{
+
+  background: url(photos/menu/main-image.jpg);
+}
+body{
+
+  background-color: #f1f1f1;
+}
+
+
+.menu-1{
+
+  width: 100%;
+  height: auto;
+
+}
+
+.menu-1-element1{
+
+  width: 100%;
+  height: 30rem;
+  background-color: red;
+  background: url(photos/menu/starter.png);
+  background-repeat: no-repeat;
+  background-size: 32%;
+}
+
+
+.menu-1-element1-inside{
+
+  width: 68%;
+  height:auto;
+/*  background-color: red;*/
+  margin-left: 32%;
+/*  border: 1px solid  black;*/
+}
+
+.menu-1-element1-inside h3{
+
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.6rem;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.menu-inside-2 p{
+
+  font-family: 'Inter' , sans-serif;
+  font-size: 1.05rem;
+  filter: opacity(70%);
+  padding: 3% 5%;
+  padding-right: 25%;
+  line-height: 150%;
+
+}
+
+.menu-inside-3 img{
+
+  height: auto;
+  width: 14%;
+  margin: 2% 3%;
+}
+
+#menu-inside{
+
+  font-family:'Inter', sans-serif ;
+  margin-top: -14%;
+  font-weight: bold;
+  margin-left: 20%;
+  letter-spacing: 2px;
+  font-size: 0.95rem;
+
+}
+
+
+
+.menu-inside-3  h3{
+
+  font-size: 1.85rem;
+  margin:-10% 15%;
+}
+
+#menu-inside1{
+
+  margin:10% 20%;
+  font-family: "Inter" , sans-serif;
+  filter: opacity(70%);
+}
+
+#menu-inside2{
+
+    margin: -9% 20%;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.menu-1-food-1{
+
+  height: auto;
+  width: auto;
+}
+
+
+/*--------------menu flex-----------*/
+
+.menu-flex{
+
+  display: flex;
+  flex-wrap: wrap;
+/*  background-color: DodgerBlue;*/
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 10%;
+
+
+}
+
+.menu-flex-item{
+
+  background-color: #f1f1f1;
+  width: 33%;
+  height: 7rem;
+
+}
+
+.menu-flex-item h3{
+
+  font-family:'Noto Sans', sans-serif ;
+  font-size: 0.9rem;
+  padding: 5% 17%;
+  letter-spacing: 1px;
+}
+
+.menu-flex-item p{
+
+  font-family:'Inter', sans-serif ;
+  font-size: 1rem;
+  margin: -3% 17%;
+  filter: opacity(70%);
+
+
+}
+
+.menu-flex-item-bottam-border{
+
+  width: 70%;
+  height: 1px;
+/*  background-color: red;*/
+  margin:7% 17%;
+  border: 1px dashed #808080;
+}
+
+.menu-1-element1-2{
+
+ width: 100%;
+  height: 30rem;
+  background-color: red;
+  background: url(photos/menu/main-course.png);
+  background-repeat: no-repeat;
+  background-size: 32%;
+
+}
+
+.menu-1-element1-3{
+
+width: 100%;
+  height: 30rem;
+  background-color: red;
+  background: url(photos/menu/deesert.png);
+  background-repeat: no-repeat;
+  background-size: 32%;
+
 }
 
 /*------------------------responsive for mobile-----------------------*/
@@ -1838,6 +2016,103 @@ margin-top: 5%;
   font-size: 1.5rem;
 }
 
+/*--------------menu page----------*/
+
+.menu-1-element1{
+
+  background-size:45% ;
+
+}
+
+.menu-1{
+
+  height: 64rem;
+}
+
+.menu-1-element1-inside{
+
+  width: 100%;
+  margin-left: 0;
+  height: auto;
+/*  background-color: none;*/
+margin-top: ;
+    
+
+}
+
+.menu-1-element1{
+
+  padding-top: 20rem;
+}
+
+.menu-1-element1{
+
+  background-size: 80%;
+
+}
+
+.menu-1-element1-inside h3{
+
+    font-size: 1.6rem;
+    padding-left: 10%;
+
+}
+
+.menu-inside-2 p{
+
+    font-size: 0.9rem;
+    padding-right: 15%;
+    padding-left: 10%;
+
+}
+
+.menu-inside-3 img{
+
+  width: 53%;
+  text-align: center;
+  margin-left: 21%;
+  margin-top: 14%;
+}
+
+#menu-inside{
+
+  font-size: 0.9rem;
+  margin-left: 10%;
+  margin-top: 5%;
+
+}
+
+.menu-inside-3 h3{
+
+  margin-left: 0%;
+  font-size:1.2rem ;
+  margin-top: -7%;
+
+}
+
+#menu-inside1{
+
+  margin-left: 10%;
+  margin-top: 12%;
+}
+
+#menu-inside2{
+
+  margin-left: 10%;
+}
+
+
+.menu-flex{
+
+  flex-wrap: wrap;
+
+}
+
+.menu-flex-item{
+
+  width: 100%;
+  height: auto;
+}
 }
 
 /*------------------------risponsiv for mobile end-----------------------*/
@@ -2384,6 +2659,103 @@ margin-top: 5%;
 
   font-size: 1.5rem;
 }
+
+.menu-1-element1{
+
+  background-size:45% ;
+
+}
+
+.menu-1{
+
+  height: 64rem;
+}
+
+.menu-1-element1-inside{
+
+  width: 100%;
+  margin-left: 0;
+  height: auto;
+/*  background-color: none;*/
+margin-top: ;
+    
+
+}
+
+.menu-1-element1{
+
+  padding-top: 20rem;
+}
+
+.menu-1-element1{
+
+  background-size: 80%;
+
+}
+
+.menu-1-element1-inside h3{
+
+    font-size: 1.6rem;
+    padding-left: 10%;
+
+}
+
+.menu-inside-2 p{
+
+    font-size: 0.9rem;
+    padding-right: 15%;
+    padding-left: 10%;
+
+}
+
+.menu-inside-3 img{
+
+  width: 53%;
+  text-align: center;
+  margin-left: 21%;
+  margin-top: 14%;
+}
+
+#menu-inside{
+
+  font-size: 0.9rem;
+  margin-left: 10%;
+  margin-top: 5%;
+
+}
+
+.menu-inside-3 h3{
+
+  margin-left: 0%;
+  font-size:1.2rem ;
+  margin-top: -7%;
+
+}
+
+#menu-inside1{
+
+  margin-left: 10%;
+  margin-top: 12%;
+}
+
+#menu-inside2{
+
+  margin-left: 10%;
+}
+
+.menu-flex{
+
+  flex-wrap: wrap;
+
+}
+
+.menu-flex-item{
+
+  width: 50%;
+  height: auto;
+
+}
+
 }
 
 /*------------------------risponsiv for tablet end-----------------------*/
