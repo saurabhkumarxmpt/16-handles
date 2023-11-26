@@ -1451,6 +1451,202 @@ width: 100%;
 
 }
 
+/*-----------------**********contact page**********-------------------*/
+
+.contact-cover-image{
+
+            width: 100%;
+            height: 470px;
+            background-image: url('photos/contact/contact-main.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+}
+
+.main-contact{
+
+  width: 100%;
+  height: auto;
+/*  background-color: red;*/
+  text-align: center;
+
+}
+
+
+#our-loction{
+
+  font-family:'Noto Sans', sans-serif ;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-top: 10%;
+}
+
+#main-adders{
+
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  padding-top: 2%;
+}
+
+#main-contant-add-5{
+
+  font-family: 'Inter' , sans-serif;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top:3%;
+  filter: opacity(75%);
+
+}
+
+.main-contact > a > button{
+
+  height: 40px;
+  width: 200px;
+  margin-top:2% ;
+  font-family:'Space Grotesk', sans-serif ;
+  font-size: 1rem;
+  border: 2px solid #000;
+  background-color: transparent;
+  cursor:pointer ;
+  transition: 0.25s all;
+}
+.main-contact > a > button:hover{
+background-color: #000;
+color: #fff;
+
+}
+
+#tele-res{
+
+    font-family:'Noto Sans', sans-serif ;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-top: 5%;
+
+}
+
+#phone-contact{
+
+    font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  padding-top: 2%;
+}
+
+#contact-mail{
+
+  font-family: 'Inter' , sans-serif;
+  padding-top:0%;
+  filter: opacity(75%);
+  padding-bottom: 10%;
+
+}
+
+.contact-massage{
+
+  display: flex;
+  flex-wrap: nowrap;
+/*  background-color: DodgerBlue;*/
+}
+
+.contact-massage-item{
+
+    background-color: #f1f1f1;
+  width: 50%;
+  margin: 2px;
+  height: auto;
+  
+}
+
+.contact-massage-item iframe{
+
+/*  height: 100%;*/
+  width: 100%;
+}
+
+#contact-massage{
+
+  font-family:'Noto Sans', sans-serif ;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-top: 13%;
+  padding-left: 10%;
+
+}
+
+#contact-massage1{
+
+  font-family: 'Inter' , sans-serif;
+  padding-left: 10%;
+  padding-top:3%;
+  padding-right: 40%;
+  filter: opacity(75%);
+
+}
+
+.contact-massage-item input[type=text]{
+
+  height: 45px;
+  width: 400px;
+  border: 1px solid #D5D5D5;
+  padding-left: 2%;
+  font-size: 1.05rem;
+  font-family: 'Inter' , sans-serif;
+  outline: none;
+  margin:7% 10%;
+  border-radius: 2px;
+
+}
+
+.contact-massage-item input[type=email]{
+
+
+  height: 45px;
+  width: 400px;
+  border: 1px solid #D5D5D5;
+  padding-left: 2%;
+  font-size: 1.05rem;
+  font-family: 'Inter' , sans-serif;
+  outline: none;
+  margin:-3% 10%;
+  border-radius: 2px;
+}
+
+.contact-massage-item textarea{
+
+    height: 100px;
+  width: 400px;
+  border: 1px solid #D5D5D5;
+  padding-left: 2%;
+  font-size: 1rem;
+  font-family: 'Inter' , sans-serif;
+  outline: none;
+  margin:6% 10%;
+  border-radius: 2px;
+  padding-top: 2%;
+
+}
+.contact-massage-item > a > button{
+
+  height: 40px;
+  width: 170px;
+  margin-top:-2% ;
+  margin-left: 10%;
+  font-family:'Space Grotesk', sans-serif ;
+  font-size: 1rem;
+  border: 2px solid #000;
+  font-weight: bold;
+  background-color: transparent;
+  cursor:pointer ;
+  transition: 0.25s all;
+
+}
+
+.footer-contact{
+
+  margin-top: 0;
+}
 /*------------------------responsive for mobile-----------------------*/
 @media only screen and (max-width: 390px){
 
@@ -2113,6 +2309,98 @@ margin-top: ;
   width: 100%;
   height: auto;
 }
+
+/*--------------------contact page----------------*/
+
+
+#our-loction{
+
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+#main-adders{
+
+  font-size: 1.2rem;
+}
+
+#main-contant-add-5{
+
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size:0.8rem ;
+}
+
+.main-contact > a > button{
+
+  margin-top: 5%;
+  height: 35px;
+  width: 190px;
+  font-size: 0.9rem;
+}
+
+#tele-res{
+
+  font-weight: normal;
+  font-size: 0.75rem;
+  padding-top: 5%;
+}
+
+#phone-contact{
+
+  font-size: 2.2rem;
+
+}
+
+.contact-massage{
+
+  flex-wrap: wrap;
+}
+
+.contact-massage-item{
+
+  width: 100%; 
+}
+
+.contact-massage-item iframe{
+
+  height: 260px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.contact-massage-item input[type=text]{
+
+  height: 36px;
+  width: 270px;
+  font-size: 0.9rem;
+  
+
+}
+.contact-massage-item input[type=email]{
+
+  height: 36px;
+  width: 270px;
+  font-size: 0.9rem;
+  
+
+}
+
+.contact-massage-item textarea{
+
+    height: 90px;
+  width: 270px;
+  font-size: 0.9rem;
+
+}
+
+.contact-massage-item > a > button{
+
+margin-bottom: 10%;
+font-size: 0.9rem;
+height: 35px;
+width: 140px;
+}
+
 }
 
 /*------------------------risponsiv for mobile end-----------------------*/
@@ -2755,6 +3043,95 @@ margin-top: ;
   height: auto;
 
 }
+
+#our-loction{
+
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+#main-adders{
+
+  font-size: 1.2rem;
+}
+
+#main-contant-add-5{
+
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size:0.8rem ;
+}
+
+.main-contact > a > button{
+
+  margin-top: 5%;
+  height: 35px;
+  width: 190px;
+  font-size: 0.9rem;
+}
+
+#tele-res{
+
+  font-weight: normal;
+  font-size: 0.75rem;
+  padding-top: 5%;
+}
+
+#phone-contact{
+
+  font-size: 2.2rem;
+
+}
+
+.contact-massage{
+
+  flex-wrap: wrap;
+}
+
+.contact-massage-item{
+
+  width: 100%; 
+}
+
+.contact-massage-item iframe{
+
+  height: 260px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.contact-massage-item input[type=text]{
+
+  height: 36px;
+  width: 270px;
+  font-size: 0.9rem;
+  
+
+}
+.contact-massage-item input[type=email]{
+
+  height: 36px;
+  width: 270px;
+  font-size: 0.9rem;
+  
+
+}
+
+.contact-massage-item textarea{
+
+    height: 90px;
+  width: 270px;
+  font-size: 0.9rem;
+
+}
+
+.contact-massage-item > a > button{
+
+margin-bottom: 10%;
+font-size: 0.9rem;
+height: 35px;
+width: 140px;
+}
+
 
 }
 
